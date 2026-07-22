@@ -1,0 +1,17 @@
+version: "1.0"
+projectName: Kvv_2207_AWSPPProject
+runtimes:
+- runtimeAlias: Cloud Designtime
+  assets:
+  - name: tppWorkflow
+    type: workflow
+    uid: fl5464eecced95403b8c440264ff89f668
+    stepId: a0
+    reference: services:add3Ints
+- runtimeAlias: kvv_2206_AWSPP
+  assets:
+  - name: tppWorkflow
+    type: workflow
+    uid: fl5464eecced95403b8c440264ff89f668
+    stepId: a1
+    reference: services:add3Ints
